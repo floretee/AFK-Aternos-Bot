@@ -6,7 +6,7 @@ function createBot() {
         host: 'nexorias.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 38299,                // Puerto predeterminado de Minecraft
         username: 'NexoriasBot',    // Nombre genérico del bot/NPC dentro del juego
-        version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: true              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {
